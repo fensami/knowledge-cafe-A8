@@ -1,6 +1,7 @@
 import React from 'react';
 import './Newsfeed.css'
 import News from '../news/News';
+import Cart from '../cart/Cart';
 
 const Newsfeed = () => {
     return (
@@ -9,7 +10,7 @@ const Newsfeed = () => {
             <News></News>
             </div>
             <div>
-                <h3>Cart option</h3>
+               <Cart></Cart>
             </div>
 
         </div>
