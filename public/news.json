@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Author name": "Mr. Raju",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Blog cover image": "url",
+        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
+        "Read time": 5,
+        "Publish Date": "Mar 14 (4 Days ago)"
+    },
+    {
+        "id": 2,
+        "Author name": "Mrs. Setara",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Blog cover image": "url",
+        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
+        "Read time": 10,
+        "Publish Date": "Mar 14 (4 Days ago)"
+    },
+    {
+        "id": 3,
+        "Author name": "Mina Mostofa",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Blog cover image": "Addidas",
+        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
+        "Read time": 12,
+        "Publish Date": "Mar 14 (4 Days ago)"
+    },
+    {
+        "id": 4,
+        "Author name": "MahMud Priom",
+        "Blog title": "How to get your first job as a self-taught programmer",
+        "Blog cover image": "url",
+        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
+        "Read time": 15,
+        "Publish Date": "Mar 14 (4 Days ago)"
+    }
+]
