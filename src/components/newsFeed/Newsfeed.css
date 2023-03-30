@@ -1,0 +1,12 @@
+.newsFeed{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 0 320px;
+
+}
+.newsFeed img {
+    width: 845px;
+    height: 450px;
+    
+
+}
