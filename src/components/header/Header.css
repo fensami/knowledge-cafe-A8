@@ -11,4 +11,12 @@
 .header img{
     width: 60px;
     height: 60px;
+    border-radius: 100px;
 }
+@media only screen and (max-width: 768px) {
+    .header{
+        padding: 0;
+        /* gap: 320px; */
+        
+    }
+  }

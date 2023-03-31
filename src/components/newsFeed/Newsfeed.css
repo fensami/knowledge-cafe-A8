@@ -3,9 +3,21 @@
     grid-template-columns: 2fr 2fr;
     padding: 0 320px;
     gap: 15px;
+    margin-top: 20px;
 
 }
 .newsFeed img {
     width: 845px;
     height: 450px;
 }
+@media only screen and (max-width: 768px) {
+    .newsFeed{
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .newsFeed img {
+        width: 590px;
+        height: auto;
+    }
+  }
