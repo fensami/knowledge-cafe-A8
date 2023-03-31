@@ -7,7 +7,9 @@ const Header = () => {
         <div className='header'>
             <h1>Knowledge Cafe</h1>
             <img src={image} alt="" />
+            
         </div>
+        
     );
 };
 

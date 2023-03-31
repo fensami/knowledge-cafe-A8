@@ -1,6 +1,10 @@
 .news {
     margin-bottom: 30px;
-
+}
+.news a{
+    font-size: 20px;
+    color: #6047EC;
+    text-decoration: underline;
 }
 
 .news img {

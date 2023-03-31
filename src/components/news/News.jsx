@@ -4,7 +4,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './News.css'
 
 const News = (props) => {
-    const { blog_cover_image, author_image, author_name,blog_title, read_time } = props.news
+    const { blog_cover_image,publish_date, author_image, author_name,blog_title, read_time } = props.news
     // console.log(props);
     const markAsReadBtn = props.markAsReadBtn;
 
@@ -18,7 +18,7 @@ const News = (props) => {
                     <img src={author_image} />
                     <div>
                         <h3>{author_name}</h3>
-                        <p>Mar 14 (4 Days ago)</p>
+                        <p>{publish_date}</p>
                     </div>
                 </div>
                 <div>
