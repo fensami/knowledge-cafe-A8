@@ -2,11 +2,10 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     padding: 0 320px;
+    gap: 15px;
 
 }
 .newsFeed img {
     width: 845px;
     height: 450px;
-    
-
 }

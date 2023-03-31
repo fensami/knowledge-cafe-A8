@@ -1,24 +1,22 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = ({cart}) => {
-    // const cart = props.cart
-    // console.log(cart);
-    // console.log(cart);
-    // console.log(cart);
+const Cart = ({cart, cart2}) => {
+    
     let total = 0;
     for(const newz of cart){
-        total =total + newz.read_time
-        console.log(newz.read_time);
-        // total =total + new;
+        if(newz.total === 0){
+            newz.total = 1;
+        }
+        total = total + newz.read_time;
     }
     return (
-        <div>
+        <div className='cart'>
             <div className='spent-container'>
                 <h3>Spent time on read : {total} </h3>
             </div>
             <div className='blogs-container'>
-                <h3>Bookmarked Blogs : {cart.length}</h3>
+                <h3>Bookmarked Blogs : {cart2.length} {cart.blog_title} </h3>
             </div>
         </div>
     );

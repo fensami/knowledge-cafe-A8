@@ -6,16 +6,27 @@ import Cart from '../cart/Cart';
 const Newsfeed = () => {
     const [newsfeed, setNewsfeed] = useState([]);
     const [cart , setCart] = useState([]);
+    const [cart2 , setCart2] = useState([]);
     useEffect(()=> {
         fetch('news.json')
         .then(res => res.json())
         .then(data => setNewsfeed(data))
     },[])
 
+
     const markAsReadBtn = (news) => {
+        // let newCart = [];
+        // const exixt =cart.find(nw => nw.read_time === nw.read_time)
         const newCart = [...cart , news];
         setCart(newCart);
     } 
+    const bookmarkBtn = (news) => {
+        // let newCart = [];
+        // const exixt =cart.find(nw => nw.read_time === nw.read_time)
+        const newCart2 = [...cart2 , news];
+        setCart2(newCart2);
+    } 
+
     return (
         <div className='newsFeed'>
             <div>
@@ -25,13 +36,14 @@ const Newsfeed = () => {
                     key={news.id}
                     news = {news}
                     markAsReadBtn = {markAsReadBtn}
+                    bookmarkBtn = {bookmarkBtn}
 
                     ></News>)
                 }
           
             </div>
             <div>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} cart2= {cart2}></Cart>
             </div>
 
         </div>

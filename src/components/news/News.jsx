@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './News.css'
 
 const News = (props) => {
@@ -6,6 +8,7 @@ const News = (props) => {
     // console.log(props);
     const markAsReadBtn = props.markAsReadBtn;
 
+    const bookmarkBtn = props.bookmarkBtn
     
     return (
         <div className='news'>
@@ -18,14 +21,13 @@ const News = (props) => {
                         <p>Mar 14 (4 Days ago)</p>
                     </div>
                 </div>
-                <div onClick={() =>markAsReadBtn(props.news)}>
-                    <p>{read_time} min read</p>
-                    <p>i</p>
+                <div>
+                    <p>{read_time} min read <FontAwesomeIcon onClick={() => bookmarkBtn(props.news)} className='icon' icon={faBookmark} /></p>
                 </div>
             </div>
             <h2>{blog_title}</h2>
             <p>#beginner #programming</p>
-            <a  >Mark as read</a>
+            <a onClick={() =>markAsReadBtn(props.news)} >Mark as read</a>
             <div className='underline'></div>
         </div>
     );
