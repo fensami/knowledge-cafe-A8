@@ -1,4 +1,17 @@
-.cart{
-    background-color: aqua;
+.spent-container {
+    background-color: rgba(96, 71, 236, 0.1);
+    color: #6047EC;
+    border: 1px solid #6047EC;
+    border-radius: 8px;
     padding: 20px;
+    text-align: center;
+}
+.blogs-container {
+    margin-top: 30px;
+    background-color: rgba(96, 71, 236, 0.1);
+    /* color: #6047EC; */
+    /* border: 1px solid #6047EC; */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
 }

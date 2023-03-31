@@ -1,38 +1,42 @@
 [
     {
         "id": 1,
-        "Author name": "Mr. Raju",
-        "Blog title": "How to get your first job as a self-taught programmer",
-        "Blog cover image": "url",
-        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
-        "Read time": 5,
-        "Publish Date": "Mar 14 (4 Days ago)"
+        "author_name": "Mahmud Priom",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "blog_cover_image": "https://c4.wallpaperflare.com/wallpaper/632/34/549/technology-monitor-alpha-coders-binary-wallpaper-preview.jpg",
+
+        "author_image": "https://scontent.fcgp32-1.fna.fbcdn.net/v/t39.30808-6/307674217_797565568051477_2320215971200206760_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFRzso-qzn7gsn2x1IZ9s6gOqUzkolP38g6pTOSiU_fyCyICKWUHDhGri1PbrxKd9PU0-O5KzQfHZxPzoefUyVL&_nc_ohc=3AHu-T-uyokAX8aWnuc&_nc_ht=scontent.fcgp32-1.fna&oh=00_AfCOzCY-RWHZ7J0ULcO6PFE8flU2WH8Iy-K-I7ODE_XVfQ&oe=642C12BA",
+        "read_time": 5,
+        "publish_date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 2,
-        "Author name": "Mrs. Setara",
-        "Blog title": "How to get your first job as a self-taught programmer",
-        "Blog cover image": "url",
-        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
-        "Read time": 10,
-        "Publish Date": "Mar 14 (4 Days ago)"
+        "author_name": "Ifranul Hq Shiam",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "blog_cover_image": "https://c0.wallpaperflare.com/preview/524/860/912/screen-code-coding-programming.jpg",
+
+        "author_image": "https://scontent.fcgp32-1.fna.fbcdn.net/v/t39.30808-6/338494971_226710176513555_2837461266116531753_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH40Z5X_IsRP2yav-m0YVd6extP-dTWdDV7G0_51NZ0NQDpr4fBn2Xcaa9JRLPGwyGkfxTdZa26jOX67EEOZIyB&_nc_ohc=HRkVYWwbJQ0AX_FkF2i&_nc_ht=scontent.fcgp32-1.fna&oh=00_AfBjpBeD0iNqzoxEhps1ZXrgVIRu4O5msAh8elAOK9nmAQ&oe=642B2A5F",
+        "read_time": 10,
+        "publish_date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 3,
-        "Author name": "Mina Mostofa",
-        "Blog title": "How to get your first job as a self-taught programmer",
-        "Blog cover image": "Addidas",
-        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
-        "Read time": 12,
-        "Publish Date": "Mar 14 (4 Days ago)"
+        "author_name": "Naim H Chowdury",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "blog_cover_image": "https://media.istockphoto.com/id/122204403/photo/binary-code.jpg?s=612x612&w=0&k=20&c=PKfESC0tGyCflS4erBmkoTi9OQoQm8Wr4fMTJGJdgmE=",
+
+        "author_image": "https://scontent.fcgp32-1.fna.fbcdn.net/v/t39.30808-6/332142941_1256454048287712_1515320894409825706_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFalX_36dqGdrsHgyiHZ0gyuuqai0hkm_S66pqLSGSb9J4ggGxgwi1b5f6aVtg1RLose4AIu9gkx-FuCRMAetm5&_nc_ohc=Z87VaHlBECsAX9hg9vK&_nc_ht=scontent.fcgp32-1.fna&oh=00_AfCoDXd-_jpGxkAAxuZt9JzVrVJYAiqY9XTij3ZCYiJe5Q&oe=642AA074",
+        "read_time": 12,
+        "publish_date": "Mar 14 (4 Days ago)"
     },
     {
         "id": 4,
-        "Author name": "MahMud Priom",
-        "Blog title": "How to get your first job as a self-taught programmer",
-        "Blog cover image": "url",
-        "Author image": "https://www.pngitem.com/pimgs/m/79-791921_male-profile-round-circle-users-profile-round-icon.png",
-        "Read time": 15,
-        "Publish Date": "Mar 14 (4 Days ago)"
+        "author_name": "Ks Mredul",
+        "blog_title": "How to get your first job as a self-taught programmer",
+        "blog_cover_image": "https://media.istockphoto.com/id/1329808536/photo/digital-transformation-concept-system-engineering-binary-code-programming.jpg?s=612x612&w=0&k=20&c=EN0gfsNO-j0gOFsoPgOkiySQP4DiS9BarrSHP72-e2E=",
+
+        "author_image": "https://scontent.fcgp32-1.fna.fbcdn.net/v/t1.6435-9/130242627_766455200625593_2408661186790650908_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFrS76x80dbOCLd-e6IyX-9OTfT9KcVJdQ5N9P0pxUl1NyzLu9RaTg-HiYXDl0eXqAZuAx5zVz5OET4aWcxQl4s&_nc_ohc=2GtPpZgfn9EAX-PzwN_&_nc_ht=scontent.fcgp32-1.fna&oh=00_AfCn2fhRFSlg7Y8_VzDXYMJJyUgMTXY9rDyhmPgTuR566A&oe=644E1C45",
+        "read_time": 15,
+        "publish_date": "Mar 14 (4 Days ago)"
     }
 ]
