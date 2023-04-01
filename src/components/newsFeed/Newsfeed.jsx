@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Newsfeed.css'
 import News from '../news/News';
 import Cart from '../cart/Cart';
+import { toast } from 'react-toastify';
 
 const Newsfeed = () => {
     const [newsfeed, setNewsfeed] = useState([]);
@@ -15,14 +16,11 @@ const Newsfeed = () => {
 
 
     const markAsReadBtn = (news) => {
-        // let newCart = [];
-        // const exixt =cart.find(nw => nw.read_time === nw.read_time)
         const newCart = [...cart , news];
         setCart(newCart);
     } 
     const bookmarkBtn = (news) => {
-        // let newCart = [];
-        // const exixt =cart.find(nw => nw.read_time === nw.read_time)
+        toast(news.blog_title, {position:"top-center"})
         const newCart2 = [...cart2 , news];
         setCart2(newCart2);
     } 

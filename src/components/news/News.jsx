@@ -5,7 +5,6 @@ import './News.css'
 
 const News = (props) => {
     const { blog_cover_image,publish_date, author_image, author_name,blog_title, read_time } = props.news
-    // console.log(props);
     const markAsReadBtn = props.markAsReadBtn;
 
     const bookmarkBtn = props.bookmarkBtn
@@ -27,7 +26,7 @@ const News = (props) => {
             </div>
             <h2>{blog_title}</h2>
             <p>#beginner #programming</p>
-            <a onClick={() =>markAsReadBtn(props.news)} >Mark as read</a>
+            <a onClick={() =>markAsReadBtn(props.news)}  >Mark as read</a>
             <div className='underline'></div>
         </div>
     );
