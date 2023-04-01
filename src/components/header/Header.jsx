@@ -6,7 +6,14 @@ const Header = () => {
     return (
         <div className='header'>
             <h1>Knowledge Cafe</h1>
+            
+            <div>
+            <a href="">Home</a>
+            <a href="">Blog</a>
+            <a href="">Login</a>
+            </div>
             <img src={image} alt="" />
+            
             
         </div>
         

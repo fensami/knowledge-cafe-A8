@@ -1,13 +1,13 @@
 .newsFeed{
     display: grid;
     grid-template-columns: 2fr 2fr;
-    padding: 0 200px;
     gap: 15px;
+    padding: 0 200px;
     margin-top: 20px;
 
 }
 .newsFeed img {
-    width: 845px;
+    width: 700px;
     height: 450px;
 }
 @media only screen and (max-width: 768px) {

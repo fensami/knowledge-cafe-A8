@@ -18,7 +18,7 @@ const Cart = ({cart, cart2}) => {
             </div>
             <div className='blogs-container'>
                 <h3>Bookmarked Blogs : {cart2.length} {cart.blog_title} </h3>
-                <p><ToastContainer /></p>
+                <ToastContainer />
             </div>
         </div>
     );

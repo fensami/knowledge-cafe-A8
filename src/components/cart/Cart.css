@@ -1,6 +1,7 @@
 .cart{
     position: sticky;
     top: 0;
+    margin-right: 30px;
 }
 .spent-container {
     background-color: rgba(96, 71, 236, 0.1);
@@ -12,6 +13,7 @@
 }
 .blogs-container {
     margin-top: 30px;
+    width: 200px;
     background-color: rgba(96, 71, 236, 0.1);
     border-radius: 8px;
     padding: 20px;
@@ -23,4 +25,5 @@
         width: 450px;
         margin: 0 20px;
     }
+    
   }

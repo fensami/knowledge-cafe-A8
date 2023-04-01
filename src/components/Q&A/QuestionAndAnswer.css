@@ -10,8 +10,9 @@
 }
 @media only screen and (max-width: 768px) {
     .question{
-        padding: 0;
+        padding: 8px;
         gap: 30px;
         margin: 0 20px;
+
     }
   }
